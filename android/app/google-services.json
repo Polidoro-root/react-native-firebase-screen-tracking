@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "556381171836",
+    "project_id": "screen-tracking-199a0",
+    "storage_bucket": "screen-tracking-199a0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:556381171836:android:d052c8c87b38c79bef99f9",
+        "android_client_info": {
+          "package_name": "com.reactnativefirebasescreentracking"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "556381171836-9bu85bpilv4avojgnrf5rjhp3umghtd9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQLOKCO-PH_EWIaZJdFMsDbsavEAGCuFg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "556381171836-9bu85bpilv4avojgnrf5rjhp3umghtd9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
