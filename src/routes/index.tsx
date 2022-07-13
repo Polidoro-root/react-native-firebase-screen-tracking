@@ -32,7 +32,7 @@ const Routes = () => {
           });
         }
 
-        routeNameRef!.current = currentRouteName;
+        routeNameRef!.current = currentRouteName ?? '';
       }}>
       <Stack.Navigator>
         <Stack.Screen name="Home" component={Home} />

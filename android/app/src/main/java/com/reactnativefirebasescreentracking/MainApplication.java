@@ -12,8 +12,10 @@ import com.facebook.soloader.SoLoader;
 import com.reactnativefirebasescreentracking.newarchitecture.MainApplicationReactNativeHost;
 import java.lang.reflect.InvocationTargetException;
 import java.util.List;
+import com.google.firebase.analytics.FirebaseAnalytics;
 
 public class MainApplication extends Application implements ReactApplication {
+  private FirebaseAnalytics mFirebaseAnalytics;
 
   private final ReactNativeHost mReactNativeHost =
       new ReactNativeHost(this) {
@@ -56,6 +58,7 @@ public class MainApplication extends Application implements ReactApplication {
     ReactFeatureFlags.useTurboModules = BuildConfig.IS_NEW_ARCHITECTURE_ENABLED;
     SoLoader.init(this, /* native exopackage */ false);
     initializeFlipper(this, getReactNativeHost().getReactInstanceManager());
+    mFirebaseAnalytics = FirebaseAnalytics.getInstance(this);
   }
 
   /**
